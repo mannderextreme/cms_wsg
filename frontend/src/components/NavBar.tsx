@@ -13,18 +13,18 @@ function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/page1">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+            <NavDropdown title="Mannschaften" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/page1">Übersicht</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+              <NavDropdown.Item href="/page2">1. Mannschaft</NavDropdown.Item>
+              <NavDropdown.Item href="/page3">2. Mannschaft</NavDropdown.Item>
+              <NavDropdown.Item href="/page4">3. Mannschaft</NavDropdown.Item>
+              <NavDropdown.Item href="/page5">4. Mannschaft</NavDropdown.Item>
+              <NavDropdown.Item href="/page6">5. Mannschaft</NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link href="/informationen">Informationen</Nav.Link>
+            <Nav.Link href="/vereinsleben">Vereinsleben</Nav.Link>
+            <Nav.Link href="/chronik">Chronik</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
