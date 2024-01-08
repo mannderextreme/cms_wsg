@@ -14,7 +14,7 @@ import Chronik from "./Chronik"
 import { BrowserRouter as Router, Routes, Route }
     from 'react-router-dom';
 function Layout(){
-  return <div>
+  return <>
   <Router>
     <NavBar/>
     <Routes>
@@ -31,7 +31,7 @@ function Layout(){
     </Routes>
     </Router>
     <CarouselFade/>
-  </div> 
+  </> 
 }
 
 export default Layout;
