@@ -1,4 +1,4 @@
-import { Nav } from "react-bootstrap";
+import { Nav, Container } from "react-bootstrap";
 import NavBar from "./NavBar";
 import CarouselFade from "./CarouselFade";
 import LandingPage from "./LandingPage"
@@ -11,10 +11,12 @@ import FünfteMannschaft from "./FünfteMannschaft";
 import Informationen from "./Informationen";
 import Vereinsleben from "./Vereinsleben"
 import Chronik from "./Chronik"
+import Footer from "./Footer"
 import { BrowserRouter as Router, Routes, Route }
     from 'react-router-dom';
 function Layout(){
   return <>
+  <Container>
   <Router>
     <NavBar/>
     <Routes>
@@ -31,6 +33,8 @@ function Layout(){
     </Routes>
     </Router>
     <CarouselFade/>
+    <Footer/>
+    </Container>
   </> 
 }
 
