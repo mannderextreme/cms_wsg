@@ -13,6 +13,7 @@ function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link style={{ fontSize: '25px' }} href="/">Home</Nav.Link>
+            <Nav.Link style={{ fontSize: '25px' }} href="/spielbetrieb">Spielbetrieb</Nav.Link>
             <NavDropdown title="Mannschaften" style={{ fontSize: '25px' }} id="basic-nav-dropdown">
               <NavDropdown.Item  style={{ fontSize: '25px' }} href="/page1">Übersicht</NavDropdown.Item>
               <NavDropdown.Divider />

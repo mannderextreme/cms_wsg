@@ -2,6 +2,7 @@ import { Nav, Container } from "react-bootstrap";
 import NavBar from "./NavBar";
 import CarouselFade from "./CarouselFade";
 import LandingPage from "./LandingPage"
+import Spielbetrieb from "./Spielbetrieb"
 import Mannschaften from "./Mannschaften"
 import ErsteMannschaft from "./ErsteMannschaft";
 import ZweiteMannschaft from "./ZweiteMannschaft";
@@ -21,6 +22,7 @@ function Layout(){
     <NavBar/>
     <Routes>
     <Route path='/' element={<LandingPage/>}/>
+    <Route path='/spielbetrieb' element={<Spielbetrieb/>}/>
     <Route path='/page1' element={<Mannschaften />}/>
     <Route path='/page2' element={<ErsteMannschaft />}/>
     <Route path='/page3' element={<ZweiteMannschaft />}/>
