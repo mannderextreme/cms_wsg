@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
+*.pyc
+test.db
 
 # Editor directories and files
 .vscode/*
